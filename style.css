@@ -84,9 +84,11 @@
     flex-direction: column;
     justify-content: center;
 }
-.heading-3 img{
+
+.heading-3 img {
     width: 100%;
 }
+
 .heading-4 {
     height: 280px;
     display: flex;
@@ -99,6 +101,7 @@
     background-color: #e3f2fd;
     clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0 100%);
 }
+
 .heading-5 {
     height: 150px;
     display: flex;
@@ -111,10 +114,12 @@
     background-color: #e3f2fd;
     clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0 100%);
 }
-.heading-5 h1{
+
+.heading-5 h1 {
     font-weight: 900;
 }
-.heading-6{
+
+.heading-6 {
     height: 150px;
     display: flex;
     font-weight: 900;
@@ -125,7 +130,8 @@
     background-color: #e3f2fd;
     clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0 100%);
 }
-.heading-6 h1{
+
+.heading-6 h1 {
     font-weight: 900;
 }
 
@@ -135,21 +141,21 @@ span {
 
 /* WORKING OF TOWNSHIPS CONTAINER */
 
-.township{
+.township {
     margin-top: 120px;
 }
-.container-pics
-{
-    height: 250vh;
+
+.container-pics {
+    height: 310vh;
     width: 100%;
     display: flex;
     margin-top: 100px;
     align-items: center;
     flex-direction: column;
-    background-color: #DC3535;
 
 }
-.container-pics img{
+
+.container-pics img {
     height: 400px;
     width: 285px;
     padding-top: 50px;
@@ -157,7 +163,7 @@ span {
 
 /* AGENT WORKING FLOW */
 
-.agent{
+.agent {
     height: 100%;
     width: 100%;
     display: flex;
@@ -166,12 +172,14 @@ span {
     flex-direction: column;
     justify-content: center;
 }
-.agent img{
+
+.agent img {
     height: 200px;
     width: 200px;
     clip-path: circle(30.0% at 50% 50%);
 }
-.agent-name h2{
+
+.agent-name h2 {
     font-weight: 600;
 }
 
@@ -184,25 +192,25 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  
-  .icon-img {
+}
+
+.icon-img {
     height: 5vh;
     width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .icon-img img {
+}
+
+.icon-img img {
     padding: 10px;
-  }
-  
-  .icon-img img:hover {
+}
+
+.icon-img img:hover {
     cursor: pointer;
-  }
-  
-  .h3_text {
+}
+
+.h3_text {
     height: 8vh;
     width: 300px;
     display: flex;
@@ -210,4 +218,4 @@ span {
     color: #717171;
     align-items: center;
     justify-content: center;
-  }
+}
