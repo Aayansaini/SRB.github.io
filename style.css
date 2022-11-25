@@ -8,9 +8,9 @@
 
 #nav {
     top: 0;
-    height: 10vh;
     display: flex;
     position: sticky;
+    align-items: center;
     justify-content: center;
 }
 
