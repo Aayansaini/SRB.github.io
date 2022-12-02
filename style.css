@@ -24,7 +24,6 @@
     list-style: none;
     text-decoration: none;
 }
-
 #nav a {
     color: #000000;
     text-decoration: none;
@@ -41,11 +40,6 @@
     z-index: -1;
     justify-content: center;
 }
-
-#carouselExampleControls {
-    z-index: -1;
-}
-
 .heading {
     height: 100px;
     display: flex;
@@ -106,6 +100,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    color: #000000;
     background-color: #e3f2fd;
     clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0 100%);
 }
@@ -121,6 +116,7 @@
     z-index: -1;
     flex-direction: column;
     justify-content: center;
+    color: #000000;
     background-color: #e3f2fd;
     clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0 100%);
 }
@@ -139,6 +135,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    color:#000000;
     background-color: #e3f2fd;
     clip-path: polygon(0 9%, 100% 0%, 100% 90%, 0 100%);
 }
@@ -156,6 +153,30 @@ span {
 .township {
     margin-top: 120px;
 }
+.haridaan{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.haridaan #h{
+    margin-top: 40px;
+}
+.haridaan ul{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+.haridaan ul li{
+    list-style: circle;
+    height: 25px;
+    width: 250px;
+}
+.hari{
+    align-items: left;
+    text-align: left;
+    justify-content: center;
+}
 
 #township {
     position: static;
@@ -163,15 +184,14 @@ span {
 }
 
 .container-pics {
-    height: 310vh;
+    height: 340vh;
     width: 100%;
     display: flex;
     margin-top: 100px;
     align-items: center;
     flex-direction: column;
-
+    /* background-color: #DC3535; */
 }
-
 .container-pics img {
     height: 400px;
     width: 285px;
@@ -245,11 +265,10 @@ span {
     position: fixed;
     align-items: center;
     justify-content: center;
-    border: 1px solid #DC3535;
+    border: 1px solid #000000;
     border-bottom-right-radius: 86px;
-    /* margin-top: 40px; */
-    /* border-top-right-radius: 86px; */
-    background-color: #DC3535;
+    border-top-right-radius: 86px;
+    background-color: #000000;
 }
 
 #b-2:hover {
@@ -262,4 +281,57 @@ span {
 
 #a-1 {
     text-decoration: none;
+}
+
+/* PROJECT_PICS CONTYAINER WORKING */
+.project-pics{
+    height: 220vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.project-pics img{
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+}
+
+/* WORKING OF AAYAN CONTAINER */
+.AAYAN{
+    height: 105vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    z-index: -1;
+    clip-path: circle(57.9% at 50% 50%);
+    background-color:#e3f2fd;
+}
+/* WORKING OF VIDEO CONTAINER */
+.video{
+    height:60vh;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+video{
+    height: 50vh;
+    width: 100%;
+}
+.happy{
+    height:20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #f9f9f9;
+    background-color: #000000;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    align-items: center;
 }
