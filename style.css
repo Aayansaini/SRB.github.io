@@ -184,18 +184,17 @@ span {
 }
 
 .container-pics {
-    height: 340vh;
+    height: 318vh;
     width: 100%;
     display: flex;
     margin-top: 100px;
     align-items: center;
     flex-direction: column;
-    /* background-color: #DC3535; */
 }
 .container-pics img {
     height: 400px;
     width: 285px;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 /* AGENT WORKING FLOW */
@@ -331,6 +330,8 @@ video{
     display: flex;
     justify-content: center;
     color: #f9f9f9;
+    position: relative;
+    z-index: -1;
     background-color: #000000;
     clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
     align-items: center;
