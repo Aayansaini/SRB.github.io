@@ -300,7 +300,7 @@ span {
 
 /* WORKING OF AAYAN CONTAINER */
 .AAYAN{
-    height: 90vh;
+    height: 55vh;
     width: 100%;
     z-index: -1;
     display: flex;
@@ -312,6 +312,9 @@ span {
     justify-content: center;
     background-color:#e3f2fd;
     clip-path: circle(57.9% at 50% 50%);
+}
+.AAYAN p{
+    text-align: center;
 }
 /* WORKING OF VIDEO CONTAINER */
 .look{
@@ -352,3 +355,5 @@ video{
 .location h2{
     font-weight: bold;
 }
+
+/* <!-- FINALY DONE ON 03-12-2022 --> */
