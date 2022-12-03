@@ -48,7 +48,6 @@
     flex-direction: column;
     justify-content: center;
 }
-
 .heading-1 {
     height: 250px;
     display: flex;
@@ -184,17 +183,18 @@ span {
 }
 
 .container-pics {
-    height: 318vh;
+    height: 200vh;
     width: 100%;
     display: flex;
     margin-top: 100px;
     align-items: center;
+    /* background-color: #DC3535; */
     flex-direction: column;
 }
 .container-pics img {
     height: 400px;
-    width: 285px;
-    padding-top: 25px;
+    width: 250px;
+    padding-top: 20px;
 }
 
 /* AGENT WORKING FLOW */
@@ -284,11 +284,12 @@ span {
 
 /* PROJECT_PICS CONTYAINER WORKING */
 .project-pics{
-    height: 220vh;
+    height: 190vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-color: #DC3535; */
     justify-content: center;
 }
 .project-pics img{
@@ -301,16 +302,16 @@ span {
 .AAYAN{
     height: 105vh;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #000000;
-    position: relative;
     z-index: -1;
-    clip-path: circle(57.9% at 50% 50%);
+    display: flex;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background-color:#e3f2fd;
+    clip-path: circle(57.9% at 50% 50%);
 }
 /* WORKING OF VIDEO CONTAINER */
 .video{
@@ -327,22 +328,25 @@ video{
 .happy{
     height:20vh;
     width: 100%;
+    z-index: -1;
     display: flex;
-    justify-content: center;
     color: #f9f9f9;
     position: relative;
-    z-index: -1;
+    align-items: center;
+    justify-content: center;
     background-color: #000000;
     clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-    align-items: center;
 }
 .location{
     height: 35vh;
     width: 100%;
     display: flex;
     margin-top: 40px;
-    flex-direction: column-reverse;
     align-items: center;
     margin-bottom: -40px;
     justify-content: center;
+    flex-direction: column-reverse;
+}
+.location h2{
+    font-weight: bold;
 }
