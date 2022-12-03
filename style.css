@@ -183,12 +183,12 @@ span {
 }
 
 .container-pics {
-    height: 200vh;
+    height: 230vh;
     width: 100%;
     display: flex;
     margin-top: 100px;
     align-items: center;
-    /* background-color: #DC3535; */
+    background-color: #DC3535;
     flex-direction: column;
 }
 .container-pics img {
